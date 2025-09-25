@@ -5,7 +5,7 @@ from .category import Category
 class Categoryinfo(admin.ModelAdmin):
     list_display=["name"]
 class Productinfo(admin.ModelAdmin):
-    list_display=["name","Category","price"]
+    list_display=["name","category","price"]
 
 admin.site.register(Product,Productinfo)
 admin.site.register(Category,Categoryinfo)
