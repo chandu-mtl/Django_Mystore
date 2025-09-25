@@ -27,8 +27,10 @@
                         style="width: 18rem;height: 25rem;">
 
                             <div class="card-header">
+                                {% if i.image 	%}
 
                                 <img src="{{i.image.url}}"
+                                {% endif %}
                         class="imagefluid">
                     </div>
                     <div class="card-body">

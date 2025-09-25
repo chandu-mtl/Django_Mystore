@@ -15,3 +15,5 @@ def home(request):
     data={'products':products,'category':categories}
     return render(request,'index.html',data)
    
+
+   
